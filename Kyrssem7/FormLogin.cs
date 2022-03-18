@@ -16,5 +16,29 @@ namespace Kyrssem7
         {
             InitializeComponent();
         }
+
+        private void buttonDecan_Click(object sender, EventArgs e)
+        {
+            ClassAdmin.admin = false;
+            FormMain fm =   new FormMain();
+            fm.ShowDialog();
+            this.Hide();
+        }
+
+        private void buttonZamDecana_Click(object sender, EventArgs e)
+        {
+            ClassAdmin.admin = false;
+            FormMain fm = new FormMain();
+            fm.ShowDialog();
+            this.Hide();
+        }
+
+        private void buttonUserDecanata_Click(object sender, EventArgs e)
+        {
+            ClassAdmin.admin = true;
+            FormMain fm = new FormMain();
+            fm.ShowDialog();
+            this.Hide();
+        }
     }
 }

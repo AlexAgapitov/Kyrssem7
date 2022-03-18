@@ -27,6 +27,12 @@ namespace Kyrssem7
         {
             // TODO: данная строка кода позволяет загрузить данные в таблицу "studentDataSet.Студенты". При необходимости она может быть перемещена или удалена.
             this.студентыTableAdapter.Fill(this.studentDataSet.Студенты);
+            if (ClassAdmin.admin == false)
+            {
+                buttonAdd.Enabled = false;
+                buttonChange.Enabled = false;
+                buttonDelete.Enabled = false;
+            }
 
         }
 

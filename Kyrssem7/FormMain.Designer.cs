@@ -110,7 +110,7 @@
             this.Controls.Add(this.buttonGroups);
             this.Name = "FormMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Авторизация";
+            this.Text = "FormMain";
             this.ResumeLayout(false);
 
         }

@@ -21,6 +21,12 @@ namespace Kyrssem7
             InitializeComponent();
             connection = new OleDbConnection(connectString);
             connection.Open();
+            if (ClassAdmin.admin == false)
+            {
+                buttonAdd.Enabled = false;
+                buttonChange.Enabled = false;
+                buttonDelete.Enabled = false;
+            }
         }
 
         private void FormDisciplines_Load(object sender, EventArgs e)

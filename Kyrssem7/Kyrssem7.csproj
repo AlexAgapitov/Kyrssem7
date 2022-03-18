@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ClassAdmin.cs" />
     <Compile Include="FormDisciplines.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -109,6 +110,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormGroup.resx">
       <DependentUpon>FormGroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLogin.resx">
+      <DependentUpon>FormLogin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormMain.resx">
       <DependentUpon>FormMain.cs</DependentUpon>
