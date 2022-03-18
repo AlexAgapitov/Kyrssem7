@@ -1,6 +1,6 @@
 ﻿namespace Kyrssem7
 {
-    partial class FormLogin
+    partial class FormMain
     {
         /// <summary>
         /// Обязательная переменная конструктора.
@@ -96,7 +96,7 @@
             this.buttonSelect.UseVisualStyleBackColor = true;
             this.buttonSelect.Click += new System.EventHandler(this.buttonSelect_Click);
             // 
-            // FormLogin
+            // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -108,7 +108,7 @@
             this.Controls.Add(this.buttonDisciplines);
             this.Controls.Add(this.buttonStudent);
             this.Controls.Add(this.buttonGroups);
-            this.Name = "FormLogin";
+            this.Name = "FormMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Авторизация";
             this.ResumeLayout(false);

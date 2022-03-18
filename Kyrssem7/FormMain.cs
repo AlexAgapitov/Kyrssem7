@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Kyrssem7
 {
-    public partial class FormLogin : Form
+    public partial class FormMain : Form
     {
-        public FormLogin()
+        public FormMain()
         {
             InitializeComponent();
         }

@@ -57,8 +57,4 @@ namespace Kyrssem7
             this.дисциплиныTableAdapter.Fill(this.studentDataSet.Дисциплины);
         }
     }
-
-    public class Class1
-    {
-    }
 }
